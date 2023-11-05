@@ -3,8 +3,8 @@ import React from "react";
 function Newsletter() {
   return (
     <div className="w-full py-16 text-white">
-      <div className="max-w-[1240px] mx-auto flex flex-col items-center  md:flex-row md:justify-between md:items-center px-10 gap-10 ">
-        <div className="sm:flex sm:flex-col sm:items-center ">
+      <div className="max-w-[1240px] mx-auto flex sm:flex-col  md:flex-row md:justify-between md:items-center px-10 gap-10 ">
+        <div className=" sm:flex sm:flex-col sm:items-center ">
           <h1 className="md:text-3xl font-semibold   text-xl sm:text-2xl py-2">
             Want tips & tricks to optimize your flow?
           </h1>
@@ -14,7 +14,7 @@ function Newsletter() {
           <input
             type="text"
             placeholder="Enter your email"
-            className="p-2 rounded-md"
+            className="p-2 rounded-md "
           />
           <button className="px-4 py-2 bg-[#00df9a] mx-3 rounded-md text-black font-semibold ">
             Notify me
