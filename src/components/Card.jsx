@@ -2,7 +2,7 @@ import React from "react";
 
 const Cards = ({img, user_number, size, access_num, send}) => {
   return (
-    <div className="w-full py-[10rem] px-4 bg-white">
+    <div className="w-full py-10 px-4 bg-white">
       <div className="max-w-[1240px] mx-auto flex flex-col md:flex-row gap-8">
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img className="w-20 mx-auto mt-[-3rem] bg-white" src={img} alt="/" />

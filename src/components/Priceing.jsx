@@ -7,7 +7,7 @@ import Single from "../assets/single.png";
 function Priceing() {
   return (
     <>
-      <div className="w-full py-[10rem] px-4 bg-white">
+      <div className="w-full py-20 px-4 bg-white">
         <div className="max-w-[1240px] mx-auto flex flex-col md:flex-row gap-8">
           <Card
             img={Single}
